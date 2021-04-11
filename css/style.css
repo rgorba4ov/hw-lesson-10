@@ -1,0 +1,400 @@
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Bold.woff") format("woff"), url("../fonts/Gilroy-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Medium.woff") format("woff"), url("../fonts/Gilroy-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-display: swap;
+  src: url("../fonts/Gilroy-Regular.woff") format("woff"), url("../fonts/Gilroy-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+section {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1;
+  font-family: "Gilroy";
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: "Gilroy";
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+body {
+  font-size: 14px;
+  background-color: #111428;
+  color: #fff;
+}
+
+._ibg {
+  position: relative;
+}
+
+._ibg img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+
+.content {
+  max-width: 1215px;
+  margin: 0px auto;
+}
+
+.header {
+  font-size: 0;
+  height: 94px;
+  -webkit-box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.25);
+  margin: 0px 0px 25px 0px;
+  padding: 29px 0px;
+}
+
+.header__logo {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 700;
+  display: inline-block;
+  margin: 0px 40px 0px 0px;
+  text-transform: uppercase;
+}
+
+.header__menu {
+  display: inline-block;
+}
+
+._no-webp .header__list a::after {
+  background: url("../img/chevron-bottom@2x.png") 2px 3px/cover no-repeat; }
+
+.header__list a::after {
+  content: '';
+  vertical-align: top;
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+
+.header__list li {
+  display: inline-block;
+  margin: 0px 20px 0px 0px;
+}
+
+.header__link {
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: capitalize;
+  color: #fff;
+}
+
+.header__search {
+  display: inline-block;
+  position: relative;
+  margin: 0px 28px 0px 0px;
+}
+
+.header__input {
+  width: 574px;
+  height: 41px;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 14px;
+  border: 1px solid #A3A3A3;
+  border-radius: 5px;
+  background-color: #111428;
+  color: #fff;
+}
+
+.header__search-icon {
+  position: absolute;
+  top: 12px;
+  right: 14px;
+}
+
+.header__user {
+  padding: 5px 0px 0px 0px;
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  background-color: #C4C4C4;
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+  margin: 0px 2px 0px 0px;
+}
+
+.header__user:hover {
+  cursor: pointer;
+}
+
+._no-webp .header__icon {
+  background: url("../img/heart.png") 0 5px no-repeat; }
+
+.header__icon {
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  margin: 0px 22px 0px 0px;
+}
+
+._no-webp .header__arrow {
+  background: url("../img/chevron-bottom@2x.png") 2px 0/cover no-repeat; }
+
+.header__arrow {
+  height: 16px;
+  width: 16px;
+  display: inline-block;
+}
+
+.header__arrow:hover {
+  cursor: pointer;
+}
+
+.page__info {
+  font-size: 14px;
+  font-weight: 500;
+  color: #A3A3A3;
+  margin: 0px 0px 28px 0px;
+}
+
+.recovery-form {
+  max-width: 441px;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.recovery-form__title {
+  font-size: 38px;
+  font-weight: 700;
+  margin: 0px 0px 10px 0px;
+}
+
+.recovery-form__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: #64B369;
+  margin: 0px 0px 41px 0px;
+}
+
+.recovery-form__input {
+  margin: 0px 0px 30px 0px;
+}
+
+.recovery-form__back {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0px 0px 0px 30px;
+  margin: 0px 0px 31px 0px;
+  position: relative;
+  top: 0;
+  right: 50px;
+}
+
+._no-webp .recovery-form__back::before {
+  background: url("../img/arrow-left@2x.png") 0 -3px/cover no-repeat; }
+
+.recovery-form__back::before {
+  content: '';
+  margin: 0px 10px 0px -30px;
+  width: 20px;
+  height: 20px;
+  vertical-align: top;
+  display: inline-block;
+}
+
+.recovery-form__button {
+  margin: 31px 0px 22px 0px;
+}
+
+.recovery-form__help {
+  width: 311px;
+  margin: 0px 0px 30px 0px;
+}
+
+.recovery-form__help span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #AEAEAE;
+  position: relative;
+  top: 0;
+  left: 30px;
+}
+
+.recovery-form__footer {
+  margin: 0px 0px 66px 0px;
+}
+
+.recovery-form__footer::after {
+  content: '';
+  height: 1px;
+  width: 1216px;
+  display: block;
+  background: #fff;
+  margin: 0px auto;
+  margin: 60px 0px 0px -400px;
+}
+
+.recovery-form__text {
+  font-size: 18px;
+  font-weight: 500;
+  display: inline-block;
+  margin: 0px 10px 0px 0px;
+}
+
+.recovery-form__link {
+  font-size: 18px;
+  font-weight: 500;
+  color: #64B369;
+}
+
+.input {
+  width: 384px;
+  height: 50px;
+  border-radius: 5px;
+  font-size: 18px;
+  color: #777;
+  padding: 0px 20px;
+}
+
+.button {
+  width: 384px;
+  height: 50px;
+  background: #337AB7;
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 24px;
+  color: #fff;
+}
+
+.footer__text {
+  text-align: center;
+  margin: 0px 0px 20px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__list {
+  font-size: 0;
+  text-align: center;
+}
+
+.footer__list li {
+  display: inline-block;
+  margin: 0px 40px 60px 0px;
+}
+
+.footer__info {
+  text-align: center;
+  margin: 0px 0px 203px 0px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.footer__info a {
+  color: #fff;
+  margin: 0px 20px 0px 0px;
+}
+
+._webp .header__list a::after { background: url(../img/chevron-bottom@2x.webp) 2px 3px/cover no-repeat; }
+
+._webp .header__icon { background: url(../img/heart.webp) 0 5px no-repeat; }
+
+._webp .header__arrow { background: url(../img/chevron-bottom@2x.webp) 2px 0/cover no-repeat; }
+
+._webp .recovery-form__back::before { background: url(../img/arrow-left@2x.webp) 0 -3px/cover no-repeat; }
